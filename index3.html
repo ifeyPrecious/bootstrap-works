@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <style>
+        body{
+            background:rgb(245, 235, 235);
+        }
+        .brd{
+            border-left: 1px solid grey;
+            border-right: 1px solid gray;
+            
+        }
+        hr{
+            border:1px solid gray;
+            width: 60px;
+            display: inline-block;
+            
+        }
+        .green{
+            border:2px solid green;
+            border-radius:2px;
+        }
+        hr:hover{
+            background-color: greenyellow;
+        }
+        i{
+            color:rgb(241, 71, 71);
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+
+        <h1>CONTACT US</h1>
+        <hr> <hr class="green"> <hr>
+    
+        <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipi temporibus ab aliquid ut voluptate ipsum vero!</p>
+        
+        <div class="row mt-5">
+        <div class="col-md-4">
+           <span><i class="fa-solid fa-location-dot"></i></span>
+            <p> ADDRESS</p>
+            <p><strong> A108 Adam Street, My <p>6876546,USA </p></strong>
+        </div>
+        <div class="col-md-4 brd">
+            <span> <i class=" fa-solid fa-phone fa-shake color  "></i> <p>PHONE NUMBER</p>
+        
+                 <p><strong> +454 877 5679 7655</strong></p> 
+                </div>
+        <div class="col-md-4">
+             <span> <i class="  fa-solid fa-envelope fa-beat-fade color "> </i><p>EMAIL</p><STRONG>Contact@gmail.com </STRONG> </span> </div>
+    </div>
+    <div>
+        <form>
+            <div class="form-row mt-4">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="form-group col-md-6">
+                 
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
+              </div>
+              
+            </div>
+               <div class="form-group md-6">
+                
+                <textarea class="form-control p-4" id="exampleFormControlTextarea1" rows="3" placeholder="Message">Message</textarea> 
+                </div>
+            <button type="button" class="btn btn-success w-3">Send Message</button>
+        </form>
+    </div>
+
+
+    </div>
+    <script src="./bootstrap/js/jquery-3.4.0.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
